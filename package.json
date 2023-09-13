@@ -1,0 +1,27 @@
+{
+  "name": "typescript-ws",
+  "version": "1.0.0",
+  "description": "workout typescript",
+  "main": "index.ts",
+  "scripts": {
+    "test": "tsc && node dist/index.js",
+    "watch":"tsc --watch --preserveWatchOutput"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nikhilkuyya-workshop-fork-for-learning/typescript-fem-workout.git"
+  },
+  "keywords": [
+    "typescript",
+    "practise"
+  ],
+  "author": "nikhilkuyya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikhilkuyya-workshop-fork-for-learning/typescript-fem-workout/issues"
+  },
+  "homepage": "https://github.com/nikhilkuyya-workshop-fork-for-learning/typescript-fem-workout#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
